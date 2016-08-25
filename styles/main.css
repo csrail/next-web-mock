@@ -22,7 +22,7 @@
 
 /* 
 Moccasin 
-
+#d05c26
 */
  
 /*-------------------------
@@ -31,6 +31,10 @@ Moccasin
 
 html, body {
   height: 100%;
+}
+
+body {
+  font-family: Helvetica;
 }
 
 .end-spacer__div {
@@ -57,12 +61,14 @@ html, body {
 }
 
 .main-bar__header {
+  z-index: 1000;
   height: 48px;
   width: 100%;
-  background-color: Moccasin;
+  background-color: #fff;
   position: fixed;
   top: 0;
-  box-shadow: 10px 1px 5px #eee;
+  box-shadow: 0 0 32px rgba(0,0,0,.15);
+  overflow: hidden;
 }
 
 
@@ -131,9 +137,9 @@ html, body {
 -------------------------------*/
 
 .wallpaper-segment__section {
-  height: 88%;
+  height: 90%;
   width: 98%;
-  background-color: #d05c26;
+  background-color: Moccasin;
   display: flex;
   flex-direction: column;
   margin: auto;
@@ -146,12 +152,76 @@ html, body {
   height: 32%;
   width: 100%;
   background-color: #b1952c;
-  margin-bottom: 10px;
+  margin-bottom: 6px;
+  overflow: hidden;
 }
 
 
 
+.wallpaper__figure {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
 
+.wallpaper__figure1 {
+  background-image: url("../images/wallpaper/G5-Review-5-796x531.jpg");
+}
+
+.wallpaper__figure2 {
+  background-image: url("../images/wallpaper/nutonomy-self-driving-cab-796x398.jpg");
+}
+
+.wallpaper__figure3 {
+  background-image: url("../images/wallpaper/kirby-cafe-796x398.jpg");
+}
+
+
+    /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+        The combination of...
+            - background-size: cover 
+            - background-position: center center
+        ...gives the illusion that the picture will expand and keep focus
+        while the height and width of the window changes; to keep this
+        fluid the browser needs to accept media queries to adjust total
+        widths.
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+.overlay__div {
+  height: 100%;
+  width: 100%;
+  position: relative;
+  background: url("../images/image-gradient.png");
+  background-size: contain;
+  background-color: rgba(0, 0, 0, 0.25);
+}
+
+.wallpaper__header {
+  position: absolute;
+  padding: 10px;
+  color: #fff;
+  bottom: 0;
+}
+
+.wallpaper__header {
+  line-height: 1.4em;
+}
+
+.topic__heading4 {
+  font-size: 1em;
+}
+
+.title__heading2 {
+  font-weight: bold;
+  font-size: 1.3em;
+}
+
+.author__paragraph {
+  font-size: 0.8em;
+}
 
 /*-------------------------
 
