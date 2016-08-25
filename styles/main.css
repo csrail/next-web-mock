@@ -108,9 +108,14 @@ body {
 
 
 
-.isolate-company__div {
+.isolate-company-nav__div {
   display: none;
 }
+
+.isolate-topic-nav__div {
+  display: none;
+}
+
 
 
 
@@ -347,24 +352,15 @@ body {
   height: 60%;
 }
 
-.search__nav {
-  background-color: red;  
-}
-
 
 
 .isolate-menu__div {
   height: 60%;
 }
 
-.menu__nav {
-background-color: purple;
-}
 
 
-
-
-.isolate-company__div {
+.isolate-company-nav__div {
   height: 40%;
   display: block;
   clear: right;
@@ -408,6 +404,26 @@ background-color: purple;
 
 
 
+
+.isolate-topic-nav__div {
+  display: block;
+}
+
+.topic-links__nav {
+  float: left;
+  font-size: 0.8em;
+  color: #aaa;
+}
+
+.topic-nav__unordered-list {
+  float: left;
+  margin-left: 10px;
+}
+
+.topic-nav__list-item {
+  float: left;
+  margin: 20px 0 0 12px;
+}
 
 }
 
