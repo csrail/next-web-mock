@@ -75,13 +75,20 @@ body {
 
 .main-bar__header nav {
   height: 100%;
+}
+
+.nav--flex {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 
-
+.isolate-home__div {
+  height: 100%;
+  display: inline-block;
+  float: left;
+}
 
 .home__nav {
   float: left;
@@ -101,6 +108,18 @@ body {
 
 
 
+.isolate-company__div {
+  display: none;
+}
+
+
+
+.isolate-search__div {
+  height: 100%;
+  display: inline-block;
+  float: right;
+}
+
 .search__nav {
   float: right;
   width: 46px;
@@ -118,6 +137,12 @@ body {
 }
 
 
+
+.isolate-menu__div {
+  height: 100%;
+  display: inline-block;
+  float: right;
+}
 
 .menu__nav {
   float: right;
@@ -278,6 +303,112 @@ body {
   height: 10%;
   width: 96%;
   background-color: #96dd1a;
+}
+
+
+
+
+
+/*==========================
+	
+  # MIN-WIDTH 768px
+  
+==========================*/
+
+@media only screen and ( min-width: 768px ) {
+
+/*-------------------------
+
+	#MAIN-BAR -- Header
+  
+--------------------------*/
+
+.spacer-main-bar__div {
+  height: 80px;
+}
+
+.main-bar__header {
+  height: 80px;
+}
+
+
+
+
+
+.isolate-home__div {
+  height: 100%;
+  display: inline-block;
+  float: left;
+}
+
+
+
+.isolate-search__div {
+  height: 60%;
+}
+
+.search__nav {
+  background-color: red;  
+}
+
+
+
+.isolate-menu__div {
+  height: 60%;
+}
+
+.menu__nav {
+background-color: purple;
+}
+
+
+
+
+.isolate-company__div {
+  height: 40%;
+  display: block;
+  clear: right;
+}
+
+.company-links__nav {
+  color: #fff;
+  background-color: #000;
+}
+
+
+
+.company__unordered-list--left {
+  float: left;
+  margin-left: 10px;
+}
+
+.company__unordered-list--right {
+  margin-right: 8px;
+}
+
+.company__list-item--left {
+  float: left;
+  margin: 10px 0 0 10px;
+}
+
+.company__list-item--right {
+  float: right;
+  margin: 10px 10px 0 0;
+}
+  
+.company__list-item {
+  font-size: 0.8em;
+  font-weight: bold;
+  color: #aaa;
+}
+
+.company__list-item--primary {
+  color: #eee;
+}
+
+
+
+
 }
 
 /*-------------------------
