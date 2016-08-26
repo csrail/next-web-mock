@@ -34,7 +34,14 @@
 @media only screen and ( min-width: 768px ) {
   .media-query__div:after {
     background-color: #9ecdff;
-    content: "768px < width < 1024px";
+    content: "768px < width < 910px";
+  }
+}
+
+@media only screen and ( min-width: 910px ) {
+  .media-query__div:after {
+    background-color: #9ecdff;
+    content: "910px < width < 1024px";
   }
 }
 

@@ -186,6 +186,14 @@ body {
   overflow: hidden;
 }
 
+.wrapper-wallpaper__div {
+  height: 64%;
+  width: 100%
+}
+
+.wallpaper__article--secondary {
+  height: 50%;
+}
 
 
 .wallpaper__figure {
@@ -250,7 +258,9 @@ body {
 }
 
 .author__paragraph {
+  display: inline-block;
   font-size: 0.8em;
+  color: #aaa;
 }
 
 /*-------------------------
@@ -425,11 +435,52 @@ body {
   margin: 20px 0 0 12px;
 }
 
-}
+
+
 
 /*-------------------------
-	#
+	
+  # WALLPAPER -- Section
+  
 --------------------------*/
+
+.wallpaper-segment__section {
+  height: 49%;
+  overflow: hidden;
+  flex-wrap: wrap;
+}
+
+.wallpaper__article--primary {
+  height: 100%;
+  width: 65%;
+  margin-right: 8px;
+}
+
+.wrapper-wallpaper__div {
+  width: 33.5%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+
+.title__heading2--primary {
+  font-family: Verdana;
+  font-size: 2.2em;
+  line-height: 1em;
+}
+
+.shares__paragraph--secondary {
+  display: none;
+}
+
+
+
+
+
+}
+
+
 
 
 /*-------------------------
