@@ -285,8 +285,7 @@ body {
 
 .latest-news__section {
   height: 90%;
-  width: 96%;
-  background-color: #fbd;
+  width: 95%;
   margin: auto;
   margin-top: 20px;
   margin-bottom: 10px;
@@ -304,16 +303,75 @@ body {
   width: 100%;
   display: flex;
   flex-direction: column;
+  overflow: hidden;
 }
 
 .latest-news__list-item {
   height: 11%;
   width: 100%;
-  background-color: red;
+  margin-bottom: 10px;
+  overflow: hidden;
+}
+
+.latest__figcaption {
+  background-color: #ada;
+  width: 90%;
+  margin-top: 2px;
+  margin-left: 86px;
+  
+}
+
+.latest-title__heading4 {
+  font-size: 0.9em;
+  font-weight: bold;
   margin-bottom: 10px;
 }
 
+.latest-author__paragraph {
+  font-size: 0.8em;
+  color: #aaa;
+}
 
+.latest__figure {
+  height: 72px;
+  width: 72px;
+  float: left;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.latest__figure--1 {
+  background-image: url("../images/latest/autoplay-461x270.gif");
+}
+
+.latest__figure--2 {
+  background-image: url("../images/latest/keyboard-1200x600.jpg");
+}
+
+.latest__figure--3 {
+  background-image: url("../images/latest/ezgif.com-optimize-3-2.gif");
+}
+
+.latest__figure--4 {
+  background-image: url("../images/latest/TouchIDiPadminiTNW-1200x630.jpg");
+}
+
+.latest__figure--5 {
+  background-image: url("../images/latest/Speech-recognition-796x398.jpg");
+}
+
+.latest__figure--6 {
+  background-image: url("../images/latest/wikileaks-469x270.jpg");
+}
+
+.latest__figure--7 {
+  background-image: url("../images/latest/Google-Fiber-730x283.png");
+}
+
+.latest__figure--8 {
+  background-image: url("../images/latest/SpigeniPhone7CasesTNW-540x270.jpg");
+}
 
 
 /*-------------------------
