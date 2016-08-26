@@ -237,6 +237,10 @@ body {
   background-color: rgba(0, 0, 0, 0.25);
 }
 
+.date__paragraph--overlay {
+  display: none;
+}
+
 .wallpaper__header {
   position: absolute;
   padding: 10px;
@@ -261,6 +265,16 @@ body {
   display: inline-block;
   font-size: 0.8em;
   color: #aaa;
+}
+
+.shares__paragraph--primary {
+  display: inline-block;
+  margin-left: 6px;
+}
+
+.shares__paragraph--secondary {
+  display: inline-block;
+  margin-left: 6px;
 }
 
 /*-------------------------
@@ -435,6 +449,9 @@ body {
   margin: 20px 0 0 12px;
 }
 
+.topic-nav__list-item--1024px {
+  display: none;
+}
 
 
 
@@ -470,6 +487,10 @@ body {
   line-height: 1em;
 }
 
+.author__paragraph--primary {
+  padding: 10px 0 6px 0;
+}
+
 .shares__paragraph--secondary {
   display: none;
 }
@@ -493,12 +514,128 @@ body {
 
 @media only screen and ( min-width: 910px ) {
 
+/*----------------------------------
+	
+  # WALLPAPER-SEGMENTS --SECTION
+  
+----------------------------------*/
+
 .wallpaper-segment__section {
   height: 58%;
 }
 
 
 }
+
+
+
+
+
+
+
+
+
+/*%%%%%%%%%%%%%%%%%%%%%%%%%%
+	
+  # MIN-WIDTH 1024px
+  
+%%%%%%%%%%%%%%%%%%%%%%%%%%*/
+
+@media only screen and ( min-width: 1024px ) {
+
+/*----------------------------------
+	
+  # MAIN-BAR -- Header
+  
+----------------------------------*/
+
+.topic-nav__list-item--1024px {
+  display: block;
+}
+
+.topic-nav__list-item--hidden {
+  display: none;
+}
+
+
+
+/*----------------------------------
+	
+  # WALLPAPER-SEGMENT -- Section
+  
+----------------------------------*/
+
+.wallpaper-segment__section {
+  height: 61%;
+}
+
+.isolate-home__div {
+  display: none;
+}
+
+.overlay__div--home {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  background: url("../images/cover-gradient.png");
+  background-size: cover;
+  z-index: 1;
+}
+
+
+    /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+        The z-index allows the overlay__div--home to show its gradient
+        on its own plane and therefore not need to compete with the other
+        overlay__div
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+
+.home-image__div--overlay {
+  height: 140px;
+  width: 320px;
+  float: left;
+  background-image: url("../images/icons/tnw.svg");
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  margin-top: 1.5em;
+  margin-left: 1.5em;
+  
+}
+
+.date__paragraph--overlay {
+  display: block;
+  float: right;
+  color: #fff;
+  font-size: 0.9em;
+  margin-top: 1.5em;
+  margin-right: 1em;
+}
+
+.wallpaper__header {
+  margin-left: 10px;
+}
+
+.title__heading2--primary {
+  font-size: 3em;
+}
+
+
+
+.title__heading2--secondary {
+  font-size: 1.6em;
+  line-height: 1.2em;
+}
+
+
+
+
+}
+
+
+
+
+
+
 
 /*-------------------------
 	#
