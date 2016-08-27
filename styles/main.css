@@ -292,10 +292,15 @@ body {
 }
 
 .latest-news__header {
-  height: 10%;
+  display: flex;
+  align-items: center;
+  height: 7%;
   width: 100%;
   background-color: #aabbee;
   margin-bottom: 1.1%;
+  font-size: 2em;
+  font-weight: bold;
+  color: #f42;
 }
 
 .latest-news__unordered-list {
