@@ -162,7 +162,7 @@ body {
 
 /*-------------------------------
 
-	# WALLPAPER-SEGMENTS -- SECTION
+	#WALLPAPER -- Section
   
 -------------------------------*/
 
@@ -650,7 +650,7 @@ body {
 
 /*%%%%%%%%%%%%%%%%%%%%%%%%%%
 	
-  # MIN-WIDTH 1024px
+  #MIN-WIDTH 1024px
   
 %%%%%%%%%%%%%%%%%%%%%%%%%%*/
 
@@ -658,7 +658,7 @@ body {
 
 /*----------------------------------
 	
-  # MAIN-BAR -- Header
+  #MAIN-BAR -- Header
   
 ----------------------------------*/
 
@@ -673,8 +673,8 @@ body {
 
 
 /*----------------------------------
-	
-  # WALLPAPER-SEGMENT -- Section
+
+  #WALLPAPER-SEGMENT -- Section
   
 ----------------------------------*/
 
@@ -742,22 +742,48 @@ body {
 
 
 
-}
-
-
-
-
-
 
 
 /*-------------------------
-	#
+	
+  #LATEST-NEWS -- Section
+  
 --------------------------*/
 
+.latest-news__section {
+  
+}
+
+.latest-news__list-item {
+  flex-basis: 25%;
+}
+
+.latest__figure {
+  height: 11.08vw;
+}
+
+
+} /* END of #1024px as min-width */
 
 
 
 
+
+
+/*%%%%%%%%%%%%%%%%%%%%%%%%%%
+	
+  #MIN-WIDTH 1190px
+  
+%%%%%%%%%%%%%%%%%%%%%%%%%%*/
+
+
+.latest-news__section {
+  width: 1121px;
+}
+
+.latest__figure {
+  height: 135.85px;
+}
 
 
 

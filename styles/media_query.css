@@ -52,6 +52,13 @@
   }
 }
 
+@media only screen and ( min-width: 1190px ) {
+  .media-query__div:after {
+    background-color: #9ecdff;
+    content: "1190px < width < 1280px";
+  }
+}
+
 @media only screen and ( min-width: 1280px ) {
   .media-query__div:after {
     background-color: #9ecdff;
