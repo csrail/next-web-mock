@@ -289,7 +289,6 @@ body {
   margin: auto;
   margin-top: 20px;
   margin-bottom: 30px;
-  background-color: red;
   overflow: hidden;
 }
 
@@ -298,7 +297,6 @@ body {
   align-items: center;
   height: 50px;
   width: 100%;
-  background-color: #aabbee;
   margin-bottom: 1.1%;
   font-size: 2em;
   font-weight: bold;
