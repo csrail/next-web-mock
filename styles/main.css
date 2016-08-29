@@ -284,17 +284,19 @@ body {
 --------------------------*/
 
 .latest-news__section {
-  height: 90%;
+  min-height: 720px;
   width: 95%;
   margin: auto;
   margin-top: 20px;
-  margin-bottom: 10px;
+  margin-bottom: 30px;
+  background-color: red;
+  overflow: hidden;
 }
 
 .latest-news__header {
   display: flex;
   align-items: center;
-  height: 7%;
+  height: 50px;
   width: 100%;
   background-color: #aabbee;
   margin-bottom: 1.1%;
@@ -304,26 +306,22 @@ body {
 }
 
 .latest-news__unordered-list {
-  height: 90%;
   width: 100%;
-  display: flex;
-  flex-direction: column;
-  overflow: hidden;
 }
 
 .latest-news__list-item {
-  height: 11%;
+  background-color: #dad;
+  min-height: 70px;
   width: 100%;
   margin-bottom: 10px;
-  overflow: hidden;
+  box-sizing: border-box;
 }
 
 .latest__figcaption {
   background-color: #ada;
-  width: 90%;
+  min-width: 50px;
   margin-top: 2px;
   margin-left: 86px;
-  
 }
 
 .latest-title__heading4 {
@@ -386,7 +384,8 @@ body {
 --------------------------*/
 
 .topics__section {
-  height: 800%;
+  position: relative;
+  height: 800px;
   display: flex;
   flex-direction: column;
 }
@@ -562,6 +561,53 @@ body {
 
 
 
+/*----------------------------------
+	
+  # LATEST-NEWS -- Section
+  
+----------------------------------*/
+
+.latest-news__section {
+  background-color: #a3fcee;
+  height: 800px;
+}
+
+.latest-news__unordered-list {
+  background-color: orange;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: flex-start;
+}
+
+.latest-news__list-item {
+  display: flex;
+  flex-basis: 33.333333%;
+  min-width: 10%;
+  padding: 10px;
+  height: 200px;
+  margin: auto 0;
+  flex-direction: column;
+}
+
+.latest__figure {
+  width: 100%;
+  height: 113px;
+  border: 2px solid red;
+}
+
+.latest__figcaption {
+  margin: auto;
+  width: 100%;
+  border: 2px solid blue;
+  margin: 0 0;
+  margin-top: 10px;
+}
+
+
+
 }
 
 
@@ -571,7 +617,7 @@ body {
 
 /*%%%%%%%%%%%%%%%%%%%%%%%%%%
 	
-  # MIN-WIDTH 768px
+  # MIN-WIDTH 910px
   
 %%%%%%%%%%%%%%%%%%%%%%%%%%*/
 
@@ -579,13 +625,19 @@ body {
 
 /*----------------------------------
 	
-  # WALLPAPER-SEGMENTS --SECTION
+  # WALLPAPER -- Section
   
 ----------------------------------*/
 
 .wallpaper-segment__section {
   height: 58%;
 }
+
+
+
+
+
+
 
 
 }
