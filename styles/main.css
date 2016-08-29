@@ -310,7 +310,6 @@ body {
 }
 
 .latest-news__list-item {
-  background-color: #dad;
   min-height: 70px;
   width: 100%;
   margin-bottom: 10px;
@@ -318,7 +317,6 @@ body {
 }
 
 .latest__figcaption {
-  background-color: #ada;
   min-width: 50px;
   margin-top: 2px;
   margin-left: 86px;
@@ -567,13 +565,15 @@ body {
   
 ----------------------------------*/
 
+.latest-news__header {
+  margin-left: 10px;
+}
+
 .latest-news__section {
-  background-color: #a3fcee;
   min-height: 600px;
 }
 
 .latest-news__unordered-list {
-  background-color: orange;
   height: 100%;
   width: 100%;
   display: flex;
@@ -594,13 +594,11 @@ body {
 .latest__figure {
   width: 100%;
   height: 14.4vw;
-  border: 2px solid red;
 }
 
 .latest__figcaption {
   margin: auto;
   width: 100%;
-  border: 2px solid blue;
   margin-top: 10px;
 }
 
@@ -776,6 +774,7 @@ body {
   
 %%%%%%%%%%%%%%%%%%%%%%%%%%*/
 
+@media only screen and ( min-width: 1190px ) {
 
 .latest-news__section {
   width: 1121px;
@@ -785,7 +784,7 @@ body {
   height: 135.85px;
 }
 
-
+}
 
 
 
