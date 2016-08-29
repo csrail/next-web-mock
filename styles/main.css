@@ -169,7 +169,6 @@ body {
 .wallpaper-segment__section {
   height: 90%;
   width: 98%;
-  background-color: Moccasin;
   display: flex;
   flex-direction: column;
   margin: auto;
@@ -373,26 +372,153 @@ body {
 }
 
 
+
+
+
 /*-------------------------
 
-	#TOPICS -- Section
+	#TOPIC -- Section
   
 --------------------------*/
 
 .topics__section {
-  position: relative;
-  height: 800px;
-  display: flex;
-  flex-direction: column;
+  min-height: 1px;  
 }
 
 .topic__article {
-  height: 10%;
-  width: 96%;
+  min-height: 100px;
+  width: 92%;
   background-color: #96dd1a;
+  margin: 0 auto;
+}
+
+.topic__header {
+  font-size: 1.5em;
+  font-weight: bold;
+  color: #f42;
+}
+
+.topic__figure {
+  width: 100%;
+  height: 67.5vw;
+  background-color: Moccasin;
+  position: relative;
+  background-position: center center;
+  background-size: cover;
+}
+
+.topic__figure--1 {
+  background-image: url("../images/topic/Lifestage.jpg")
+}
+
+.topic__figure--2 {
+  background-image: url("../images/topic/Lifestage.jpg")
+}
+
+.topic__figure--3 {
+  background-image: url("../images/topic/Lifestage.jpg")
+}
+
+.topic__figure--4 {
+  background-image: url("../images/topic/Lifestage.jpg")
+}
+
+.topic__figure--5 {
+  background-image: url("../images/topic/Lifestage.jpg")
+}
+
+.topic__figure--6 {
+  background-image: url("../images/topic/Lifestage.jpg")
+}
+
+.topic__figure--7 {
+  background-image: url("../images/topic/Lifestage.jpg")
+}
+
+.topic__figure--8 {
+  background-image: url("../images/topic/Lifestage.jpg")
 }
 
 
+
+.overlay__div--topic {
+  height: 100%;
+  width: 100%;
+  position: relative;
+  background: url("../images/image-gradient.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  opacity: 0.9;
+}
+
+.topic-figure__header {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  color: #fff;
+  
+}
+
+.topic-topic__heading4 {
+  font-size: 0.9em;
+}
+
+.topic-title__heading2 {
+  font-size: 1.2em;
+  font-weight: bold;
+  line-height: 1.2em;
+}
+
+.topic-author__paragraph {
+  font-size: 0.75em;
+  margin-top: 6px;
+}
+
+
+
+
+
+.latest-topic__footer {
+  color: #f42;
+  position: relative;
+  height: 72px;
+  overflow: hidden;
+}
+
+.latest-topic__figure--1 {
+  position: absolute;
+  right: 0;
+  height: 72px;
+  width: 72px;
+  background-image: url("../images/topic/double-dog.png");
+  background-size: cover;
+  background-position: center center;
+  background-color: #597;
+}
+
+.latest-topic__heading6 {
+  font-size: 0.9em;
+  float: left;
+  background-color: #65c;
+  position: relative;
+  margin-left: 10px;
+}
+
+.topic-title__heading4 {
+  position: relative;
+  font-size: 0.95em;
+  font-weight: bold;
+  float: left;
+  background-color: Pink;
+  margin-right: 82px;
+  margin-left: 10px;
+  bottom: 0;
+}
+
+.topic__unordered-list {
+  display: block;
+  clear: both;
+}
 
 
 
