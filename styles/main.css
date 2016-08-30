@@ -423,29 +423,32 @@ body {
 }
 
 .topic__figure--3 {
-  background-image: url("../images/topic/Lifestage.jpg")
+  background-image: url("../images/topic/tech-mural.jpg")
 }
 
 .topic__figure--4 {
-  background-image: url("../images/topic/Lifestage.jpg")
+  background-image: url("../images/topic/creative-mural.png")
 }
 
 .topic__figure--5 {
-  background-image: url("../images/topic/Lifestage.jpg")
+  background-image: url("../images/topic/money-mural.jpg")
 }
 
 .topic__figure--6 {
-  background-image: url("../images/topic/Lifestage.jpg")
+  background-image: url("../images/topic/insights-mural.jpg")
 }
 
 .topic__figure--7 {
-  background-image: url("../images/topic/Lifestage.jpg")
+  background-image: url("../images/topic/launch-mural.jpg")
 }
 
 .topic__figure--8 {
-  background-image: url("../images/topic/Lifestage.jpg")
+  background-image: url("../images/topic/world-mural.jpg")
 }
 
+.topic__figure--9 {
+  background-image: url("../images/topic/distract-mural.jpg")
+}
 
 
 .overlay__div--topic {
@@ -512,29 +515,32 @@ body {
 }
 
 .latest-topic__figure--3 {
-  background-image: url("../images/topic/double-dog.png");
+  background-image: url("../images/topic/tech-latest.jpg");
 }
 
 .latest-topic__figure--4 {
-  background-image: url("../images/topic/double-dog.png");
+  background-image: url("../images/topic/creative-latest.jpg");
 }
 
 .latest-topic__figure--5 {
-  background-image: url("../images/topic/double-dog.png");
+  background-image: url("../images/topic/money-latest.jpg");
 }
 
 .latest-topic__figure--6 {
-  background-image: url("../images/topic/double-dog.png");
+  background-image: url("../images/topic/insights-latest.jpg");
 }
 
 .latest-topic__figure--7 {
-  background-image: url("../images/topic/double-dog.png");
+  background-image: url("../images/topic/launch-latest.jpg");
 }
 
 .latest-topic__figure--8 {
-  background-image: url("../images/topic/double-dog.png");
+  background-image: url("../images/topic/world-latest.jpg");
 }
 
+.latest-topic__figure--9 {
+  background-image: url("../images/topic/distract-latest.jpg");
+}
 
 
 .latest-topic__heading6 {
