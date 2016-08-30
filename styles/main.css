@@ -720,6 +720,131 @@ body {
 
 
 
+/*-------------------------
+
+	#FOOTER-STACK -- Footer
+  
+--------------------------*/
+
+.footer-stack__section {
+  margin-top: 30px;
+}
+
+
+
+
+
+.quote__footer {
+  background-color: #F6F6F6;
+  text-align: center;
+  padding: 2.5em 0;
+}
+
+.speaker__heading4 {
+  color: #555;
+  font-size: 0.9em;
+  font-weight: bold;
+  width: 90%;
+  margin: auto;
+}
+
+.quote__heading2 {
+  color: #f42;
+  font-weight: bold;
+  font-size: 1.3em;
+  width: 90%;
+  margin: auto;
+  margin-top: 0.6em;
+}
+
+.share__button {
+  color: #bbb;
+  padding: 4px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  margin: auto;
+  margin-top: 1em;
+}
+
+
+
+
+.company__footer {
+  background-color: #131313;
+  color: #777;
+  font-weight: bold;
+  padding: 2em 0;
+  text-align: center;
+}
+
+.company-footer__unordered-list {
+  position: relative;
+  width: 90%;
+  margin: auto;
+  text-align: center;
+  overflow: hidden;
+}
+
+.company-footer__list-item {
+  display: inline-block;
+  font-size: 0.8em;
+  padding: 4px;
+}
+
+.company-footer__list-item--last {
+  margin-right: 0;
+}
+
+
+
+
+
+.copyright__footer {
+  background-color: #000;
+  color: #999;
+  font-size: 0.9em;
+  padding: 2em 0;
+  text-align: center;
+}
+
+.home-logo__div--footer {
+  height: 9px;
+  width: 37.1167px;
+  display: inline-block;
+  background-image: url("../images/icons/tnw.svg");
+  background-repeat: no-repeat;
+}
+
+.copyright__paragraph {
+  display: inline-block;
+}
+
+.powered-by__paragraph {
+  display: inline-block;
+}
+
+.sponsor-logo__div--footer {
+  height: 15px;
+  width: 56.2833;
+  display: inline-block;
+  position: relative;
+  top: 3px;
+  background-image: url("../images/icons/maxcdn.svg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: contain;
+}
+
+.heart {
+  color: red;
+}
+
+
+
+
+
+
+
 /*%%%%%%%%%%%%%%%%%%%%%%%%%%
 	
   # MIN-WIDTH 768px
@@ -993,6 +1118,36 @@ body {
   margin-left: 0;
 }
 
+
+
+
+
+/*-------------------------
+
+	#FOOTER-STACK -- Footer
+  
+--------------------------*/
+
+.quote__heading2 {
+  font-size: 2em;
+}
+
+.share__button {
+  border: 2px solid #ccc;
+}
+
+
+
+.made-with__paragraph {
+  display: inline-block;
+}
+
+.powered-by__paragraph {
+  display: inline-block;
+}
+
+
+
 } /* End of #MIN-WIDTH 768px */
 
 
@@ -1203,6 +1358,23 @@ body {
 .price__paragraph {
   font-size: 1em;
 }
+
+
+
+
+/*-------------------------
+
+	#FOOTER-STACK -- Footer
+  
+--------------------------*/
+
+.quote__heading2 {
+  font-size: 3em;
+}
+
+
+
+
 
 } /* END of #1024px as min-width */
 
