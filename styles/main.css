@@ -966,6 +966,11 @@ body {
   
 -------------------------------*/
 
+.products__header {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
 .products__unordered-list {
   display: flex;
   flex-wrap: wrap;
@@ -1012,8 +1017,6 @@ body {
 .wallpaper-segment__section {
   height: 58%;
 }
-
-
 
 
 
