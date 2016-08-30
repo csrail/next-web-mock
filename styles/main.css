@@ -464,26 +464,30 @@ body {
 .topic-figure__header {
   position: absolute;
   bottom: 10px;
-  left: 10px;
+  left: 14px;
+  margin-right: 10px;
   color: #fff;
   
 }
 
 .topic-topic__heading4 {
-  font-size: 0.9em;
+  font-size: 0.75em;
 }
 
 .topic-title__heading2 {
+  display: inline-block;
   font-size: 1.2em;
   font-weight: bold;
   line-height: 1.2em;
+  margin-top: 6px;
 }
 
 .topic-author__paragraph {
   font-size: 0.75em;
   margin-top: 6px;
+  margin-bottom: 4px;
+  color: #aaa;
 }
-
 
 
 
@@ -515,11 +519,11 @@ body {
 }
 
 .latest-topic__figure--3 {
-  background-image: url("../images/topic/tech-latest.jpg");
+  background-image: url("../images/topic/tech-latest.png");
 }
 
 .latest-topic__figure--4 {
-  background-image: url("../images/topic/creative-latest.jpg");
+  background-image: url("../images/topic/creative-latest.png");
 }
 
 .latest-topic__figure--5 {
@@ -539,7 +543,7 @@ body {
 }
 
 .latest-topic__figure--9 {
-  background-image: url("../images/topic/distract-latest.jpg");
+  background-image: url("../images/topic/distract-latest.png");
 }
 
 
