@@ -590,11 +590,68 @@ body {
   padding-right: 6px;
 }
 
-/*==========================
+
+
+
+
+/*-------------------------------
+
+	#PRODUCT -- Section
+  
+-------------------------------*/
+
+.products__section {
+  width: 96%;
+  margin: auto;
+  margin-top: 40px;
+  background-color: #ada;
+}
+
+.products__header {
+  min-height: 1px;
+  font-family: Verdana;
+  color: #f42;
+  background-color: blue;
+  overflow: hidden;
+  position: relative;
+}
+
+.latest-deals__heading2 {
+  display: inline-block;
+  float: left;
+  font-size: 1.6em;
+  font-weight: bold;
+}
+
+.see-all__span {
+  position: absolute;
+  display: inline-block;
+  font-size: 0.9em;
+  bottom: 0;
+  right: 0;
+}
+
+
+
+
+.products__heading4 {
+  font-weight: bold;
+  font-size: 0.9em;
+}
+
+
+
+.products__unordered-list {
+  display: block;
+  clear: both;
+}
+
+
+/*%%%%%%%%%%%%%%%%%%%%%%%%%%
 	
   # MIN-WIDTH 768px
   
-==========================*/
+%%%%%%%%%%%%%%%%%%%%%%%%%%*/
 
 @media only screen and ( min-width: 768px ) {
 
