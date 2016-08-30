@@ -611,7 +611,6 @@ body {
   min-height: 1px;
   font-family: Verdana;
   color: #f42;
-  background-color: #dad;
   overflow: hidden;
   position: relative;
   margin-bottom: 26px;
@@ -638,7 +637,6 @@ body {
 .products__unordered-list {
   display: block;
   clear: both;
-  background-color: moccasin;
 }
 
 .products__list-item {
@@ -646,7 +644,6 @@ body {
   display: block;
   overflow: hidden;
   margin-top: 12px;
-  background-color: #ada;
 }
 
 .products__figure {
