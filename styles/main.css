@@ -283,11 +283,10 @@ body {
 --------------------------*/
 
 .latest-news__section {
-  min-height: 720px;
+  min-height: 1px;
   width: 95%;
   margin: auto;
   margin-top: 20px;
-  margin-bottom: 30px;
   overflow: hidden;
 }
 
@@ -307,10 +306,17 @@ body {
 }
 
 .latest-news__list-item {
+  display: inline-block;
   min-height: 70px;
   width: 100%;
+  margin-top: 4px;
   margin-bottom: 10px;
   box-sizing: border-box;
+}
+
+.latest-news__list-item--last {
+  margin-bottom: 0;
+  padding-bottom: 0;
 }
 
 .latest__figcaption {
@@ -388,7 +394,6 @@ body {
 .topic__article {
   min-height: 100px;
   width: 92%;
-  background-color: #96dd1a;
   margin: 0 auto;
 }
 
@@ -396,6 +401,8 @@ body {
   font-size: 1.5em;
   font-weight: bold;
   color: #f42;
+  margin-top: 20px;
+  margin-bottom: 16px;
 }
 
 .topic__figure {
@@ -479,29 +486,63 @@ body {
 
 
 .latest-topic__footer {
-  color: #f42;
-  position: relative;
   height: 72px;
+  background-color: rgba(255,68,34,.06);
+  position: relative;
+  margin-top: 2px;
+  color: #f42;
   overflow: hidden;
 }
 
-.latest-topic__figure--1 {
+.latest-topic__figure {
   position: absolute;
   right: 0;
   height: 72px;
   width: 72px;
-  background-image: url("../images/topic/double-dog.png");
   background-size: cover;
-  background-position: center center;
-  background-color: #597;
+  background-position: center center;  
 }
+
+.latest-topic__figure--1 {
+  background-image: url("../images/topic/double-dog.png");
+}
+
+.latest-topic__figure--2 {
+  background-image: url("../images/topic/double-dog.png");
+}
+
+.latest-topic__figure--3 {
+  background-image: url("../images/topic/double-dog.png");
+}
+
+.latest-topic__figure--4 {
+  background-image: url("../images/topic/double-dog.png");
+}
+
+.latest-topic__figure--5 {
+  background-image: url("../images/topic/double-dog.png");
+}
+
+.latest-topic__figure--6 {
+  background-image: url("../images/topic/double-dog.png");
+}
+
+.latest-topic__figure--7 {
+  background-image: url("../images/topic/double-dog.png");
+}
+
+.latest-topic__figure--8 {
+  background-image: url("../images/topic/double-dog.png");
+}
+
+
 
 .latest-topic__heading6 {
   font-size: 0.9em;
   float: left;
-  background-color: #65c;
   position: relative;
   margin-left: 10px;
+  margin-top: 8px;
 }
 
 .topic-title__heading4 {
@@ -509,18 +550,37 @@ body {
   font-size: 0.95em;
   font-weight: bold;
   float: left;
-  background-color: Pink;
+  clear: left;
   margin-right: 82px;
   margin-left: 10px;
   bottom: 0;
+  line-height: 1.1em;
 }
 
 .topic__unordered-list {
   display: block;
-  clear: both;
+  padding: 0;
+  margin: 0;
+  margin-top: 6px;
 }
 
+.topic__list-item {
+  line-height: 1.3em;
+  font-size: 0.8em;
+  text-indent: -.5em;
+  margin-left: 1.8em;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  border-bottom: 1px solid #EEE;
+  color: #555;
+}
 
+.topic__list-item:before {
+  display: inline-block;
+  content: "• ";
+  color: #f42; /* or whatever color you prefer */
+  padding-right: 6px;
+}
 
 /*==========================
 	
